@@ -43,7 +43,7 @@ resource "azurerm_key_vault" "example" {
   soft_delete_enabled         = true
   purge_protection_enabled    = false
 
-  sku_name = "standard"
+  sku_name = "Standard"
 
   access_policy {
     tenant_id = data.azurerm_client_config.current.tenant_id
